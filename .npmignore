@@ -1,0 +1,17 @@
+# Exclude everything not needed by consumers
+node_modules/
+tests/
+coverage/
+.vscode/
+.idea/
+.env
+*.log
+*.local
+
+# Exclude build tools
+vite.config.js
+vitest.config.js
+tsconfig.json
+*.config.js
+
+src/

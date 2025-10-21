@@ -1,13 +1,30 @@
 {
-  "name": "debounce",
+  "name": "@chaoswd/debouncer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A lightweight utility for resetting timeouts on user-defined events (keydown, click, etc).",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build",
+    "test": "vitest run",
+    "dev": "vite",
+    "prepare": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "keywords": [
+    "debounce",
+    "timeout",
+    "event",
+    "utility",
+    "javascript"
+  ],
+  "author": "Jordan Gerber <jordangerber@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "src"
+  ],
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "vitest": "^2.0.0"
+  }
 }
