@@ -1,6 +1,6 @@
 {
-  "name": "@chaoswd/debouncer",
-  "version": "1.0.0",
+  "name": "chaoswd-debouncer",
+  "version": "1.1.0",
   "description": "A lightweight utility for resetting timeouts on user-defined events (keydown, click, etc).",
   "type": "module",
   "main": "./src/index.js",

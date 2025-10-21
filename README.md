@@ -3,7 +3,7 @@
 A lightweight, zero-dependency JavaScript utility for resetting timeouts
 on user-defined events (like keydown, click, etc).
 
-[![npm version](https://img.shields.io/npm/v/@chaoswd/debouncer.svg)](https://www.npmjs.com/package/@chaoswd/debouncer) [![license](https://img.shields.io/npm/l/@chaoswd/debouncer.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/chaoswd-debouncer.svg)](https://www.npmjs.com/package/chaoswd-debouncer) [![license](https://img.shields.io/npm/l/chaoswd-debouncer.svg)](LICENSE)
 
 
 🚀 Features
@@ -16,13 +16,13 @@ on user-defined events (like keydown, click, etc).
 
 📦 Installation
 
-    npm install @chaoswd/debouncer
+    npm install chaoswd-debouncer
 
 🧩 Usage
 
 Import
 
-    import { Debouncer } from '@chaoswd/debouncer';
+    import { Debouncer } from 'chaoswd-debouncer';
 
 Example
 
